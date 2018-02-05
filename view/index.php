@@ -63,7 +63,7 @@ $ffmpegArray = array(1, 2, 3, 4, 5, 6, 7, 8, 9, 18, 10);
                         <?php
                         if (Login::isLogged()) {
                             ?>
-                            <li><a href="<?php echo Login::getStreamerURL(); ?>"><span class="glyphicon glyphicon-film"></span> Stream Site</a></li>
+                            <li><a href="<?php echo Login::getStreamerURL(); ?>mvideos"><span class="glyphicon glyphicon-film"></span>Go to My videos</a></li>
                             <li><a href="logoff"><span class="glyphicon glyphicon-log-out"></span> Logoff</a></li>
                             <?php
                         }
